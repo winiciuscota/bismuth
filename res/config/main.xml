@@ -62,7 +62,7 @@
 
     <entry name="ignoreClass" type="String">
 	    <label>Ignore windows with certain classes(comma-separated list)</label>
-        <default>krunner,yakuake,spectacle,kded5,Conky</default>
+        <default>plasmashell,org.kde.plasmashell,org.kde.polkit-kde-authentication-agent-1,org.kde.kmix,krunner,yakuake,spectacle,kded5,Conky</default>
     </entry>
 
     <entry name="ignoreRole" type="String">

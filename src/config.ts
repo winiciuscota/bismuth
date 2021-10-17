@@ -240,7 +240,7 @@ export class ConfigImpl implements Config {
     this.ignoreClass = commaSeparate(
       this.kwinApi.KWin.readConfig(
         "ignoreClass",
-        "krunner,yakuake,spectacle,kded5,Conky"
+        "plasmashell,org.kde.plasmashell,org.kde.polkit-kde-authentication-agent-1,org.kde.kmix,krunner,yakuake,spectacle,kded5,Conky"
       )
     );
     this.ignoreRole = commaSeparate(
